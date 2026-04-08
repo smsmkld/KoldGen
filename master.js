@@ -15,6 +15,12 @@ function closeSS(event) {
   }
 }
 
+const buttons = document.querySelectorAll('.ctaBtn');
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    window.location.href = 'https://www.leadalchemy.online/widget/bookings/discovery-call-013';
+  });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     // ========================================
